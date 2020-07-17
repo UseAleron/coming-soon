@@ -1,0 +1,20 @@
+{
+  "name": "coming-soon",
+  "version": "1.0.0",
+  "description": "Aleron's Coming Soon Landing",
+  "main": "index.js",
+  "repository": "https://github.com/UseAleron/coming-soon.git",
+  "author": "Rihan <me@file.properties>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-compress": "^2.0.2",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.5.1"
+  },
+  "scripts": {
+    "serve": "npx parcel ./src/index.html",
+    "build": "npx parcel build ./src/index.html"
+  }
+}
