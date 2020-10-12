@@ -10,7 +10,7 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "postcss-cli": "^7.1.2",
-    "tailwindcss": "^1.8.11"
+    "tailwindcss": "^1.8.13"
   },
   "scripts": {
     "serve": "npx parcel ./src/index.html",
