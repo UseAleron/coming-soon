@@ -1,7 +1,0 @@
-name = "aleron-coming-soon"
-type = "webpack"
-route = "aleron.io/*"
-
-[site]
-bucket = "./dist"
-entry-point = "workers-site"
