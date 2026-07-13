@@ -1,18 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/assets/style.css" />
-    <link rel="icon" type="image/png" href="./src/assets/icon.png" />
-    <title>Aleron - Redefining Hosting</title>
-  </head>
-  <body class="bg-slate-200 flex h-screen text-center">
-    <div class="m-auto">
-      <img src="./src/assets/text.png" alt="Aleron" class="mx-auto w-1/3" />
-      <p class="mt-10 font-light text-4xl lowercase text-gray-700">
-        Coming 2025
-      </p>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
+        <link
+            href="https://fonts.bunny.net/css?family=inter:300,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/assets/style.css" />
+        <link rel="icon" type="image/png" href="./src/assets/icon/white.png" />
+        <title>Aleron - Coming Soon</title>
+    </head>
+    <body
+        class="relative min-h-dvh overflow-hidden bg-neutral-950 text-white antialiased"
+    >
+        <!-- subtle grid lines (desktop only) -->
+        <div
+            aria-hidden="true"
+            class="pointer-events-none absolute inset-0 hidden md:block"
+        >
+            <div class="absolute inset-y-0 left-[16%] w-px bg-white/10"></div>
+            <div class="absolute inset-x-0 top-[14%] h-px bg-white/10"></div>
+        </div>
+
+        <!-- mobile icon, top-left -->
+        <img
+            src="./src/assets/icon/white.png"
+            alt="Aleron icon"
+            class="absolute left-6 top-6 w-12 md:hidden"
+        />
+
+        <main
+            class="relative flex min-h-dvh flex-col items-center justify-center px-8 md:flex-row md:items-center md:pl-[24%] md:pr-0"
+        >
+            <!-- wordmark + tagline -->
+            <div class="text-center md:text-left">
+                <img
+                    src="./src/assets/text/white.png"
+                    alt="aleron."
+                    class="mx-auto w-56 sm:w-64 md:mx-0 md:w-88 lg:w-108 xl:w-120"
+                />
+                <p
+                    class="mt-5 text-2xl text-white/90 sm:text-2xl md:mt-7 md:text-3xl lg:text-4xl"
+                    style="font-family: &quot;Inter&quot;, sans-serif"
+                >
+                    Coming Soon. 2027.
+                </p>
+            </div>
+
+            <!-- desktop icon -->
+            <div class="hidden md:flex md:flex-1 md:justify-center">
+                <img
+                    src="./src/assets/icon/white.png"
+                    alt=""
+                    aria-hidden="true"
+                    class="w-26 lg:w-32 xl:w-36"
+                />
+            </div>
+        </main>
+    </body>
 </html>
